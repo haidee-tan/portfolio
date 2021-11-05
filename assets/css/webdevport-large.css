@@ -1,0 +1,72 @@
+@media only screen and (min-width: 992px) {
+  #home-page {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  #home-page > div:first-child {
+    margin-top: 10px;
+    align-items: flex-end;
+    width: 100%;
+  }
+  .profile-pic-div {
+    width: 40%;
+    height: 250px;
+    border-radius: 0;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(195, 252, 197);
+    display: flex;
+    justify-content: flex-end;
+  }
+  .profile-pic-div img {
+    object-position: 0 0;
+  }
+  .text-holder {
+    width: 60%;
+    justify-content: left;
+    padding: 20px 0 0 20px;
+    margin-bottom: 0;
+  }
+  h1 {
+    text-align: left;
+    font-size: 50px;
+  }
+  .text-holder > div {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .text-holder > div p {
+    text-align: left;
+  }
+  .sub-text {
+    width: 60%;
+    padding: 20px 0 0 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    order: 1;
+    align-items: center;
+    align-content: flex-start;
+  }
+  .sub-text p:last-child {
+    margin-bottom: 0;
+  }
+  .link-boxes {
+    width: 40%;
+    align-content: flex-start;
+    margin-top: 20px;
+  }
+  .link-boxes a {
+    min-height: 80px;
+    margin-bottom: 7px;
+  }
+  .link-boxes a:nth-child(1) {
+    border-top-left-radius: 50px;
+  }
+  .link-boxes a:nth-child(5) {
+    border-bottom-right-radius: 50px;
+  }
+}

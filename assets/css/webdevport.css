@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(53, 53, 53);
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+/* About Me */
+#about-me {
+  width: 100%;
+}
+.about-box {
+  width: 100%;
+}
+.about-subbox {
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-box .first {
+  border-top: 30px solid #7f7de4;
+}
+.about-box .third {
+  border-top: 30px solid #5cb5ff;
+}
+.about-box .first,
+.about-box .third {
+  position: sticky;
+  top: 0;
+  z-index: 0;
+}
+.about-box .second {
+  background-color: #7f7de4;
+}
+.about-box .fourth {
+  background-color: #5cb5ff;
+}
+.about-subbox > div {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.about-subbox > div:last-child p {
+  text-align: center;
+}
+.about-subbox > div:last-child p {
+  font-size: 120px;
+  font-weight: 100;
+  color: white;
+  line-height: 120px;
+}
+.about-subbox > div > p {
+  width: 100%;
+}
+.about-box .first > div:first-child p {
+  color: #7f7de4;
+}
+.about-box .third > div:first-child p {
+  color: #5cb5ff;
+}
+.about-box .first > div:first-child p,
+.about-box .third > div:first-child p {
+  line-height: 70px;
+  font-size: 60px;
+  font-weight: 200;
+}
+.about-box .first > div:first-child p:last-child,
+.about-box .third > div:first-child p:last-child {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 700;
+}
+.profile-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.profile-pic-div {
+  width: 30%;
+  height: 350px;
+  overflow: hidden;
+  font-size: 0;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin: 30px 0;
+  position: sticky;
+  top: 20px;
+}
+.profile-pic-div img {
+  width: 100%;
+}
+.about-text {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: flex-end;
+  padding: 30px;
+  padding-top: 215px;
+}
+.about-text p,
+.about-text div {
+  width: 100%;
+}
+.about-text > div:first-child {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 20px;
+}
+.about-text > div:nth-child(2) {
+  font-size: 70px;
+  font-weight: 700;
+  color: #7f7de4;
+  border-bottom: 1px solid #5cb5ff;
+}
+.about-text > div:nth-child(3) {
+  background-color: #7f7de4;
+  padding: 10px;
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+.about-text > div:nth-child(4) {
+  padding: 20px 0;
+}
+.about-text > div:nth-child(4) p {
+  margin-bottom: 15px;
+}
+#about-me .important {
+  font-weight: 700;
+  color: #1583dd;
+}
+
+/* Main Div */
+.body-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+main {
+  width: 90%;
+  padding-left: 40px;
+  margin-bottom: 150px;
+}
+main h2 {
+  font-size: 40px;
+  text-transform: lowercase;
+  font-weight: 100;
+  background-color: #7f7de4;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  border-bottom-right-radius: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-top: 10px solid white;
+  opacity: 85%;
+}
+.section {
+  margin-bottom: 100px;
+}
+/* Nav */
+nav {
+  width: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #7f7de4;
+}
+nav > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  position: sticky;
+  top: 60px;
+}
+nav a {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 15px 0;
+}
+nav a div {
+  width: 50%;
+}
+nav img {
+  width: 100%;
+}
+nav p {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #dde6ee;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 50px;
+}
+.project > a > div {
+  position: relative;
+}
+.proj-textbox {
+  margin-left: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.proj-textbox > div {
+  width: 50%;
+}
+.proj-textbox > div:first-child {
+  padding-right: 20px;
+}
+.proj-textbox > div:last-child {
+  padding: 20px;
+  background-color: #e3f2ff;
+  border-bottom-right-radius: 30px;
+}
+.proj-img-box {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid #c7e6ff;
+  background-color: white;
+}
+.proj-img-box img {
+  width: 100%;
+}
+.project h3 {
+  padding-left: 300px;
+  padding-top: 50px;
+  color: #1583dd;
+  font-weight: 300;
+  font-size: 40px;
+}
+.proj-short-desc {
+  border-bottom: 10px solid #c7e6ff;
+  padding-bottom: 5px;
+  margin-left: 100px;
+  padding-left: 200px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #727272;
+}
+.project li {
+  list-style: square;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-bottom: 2px;
+}
+.project h4 {
+  color: #1583dd;
+  margin-bottom: 5px;
+}
+/* Skills */
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+#skills h2 {
+  width: 100%;
+}
+#skills h3 {
+  font-size: 25px;
+  width: 100%;
+  margin-bottom: 30px;
+  color: #1583dd;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.skills-sub {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 50px;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.tech-skills-body,
+.non-tech-skills-box {
+  width: 50%;
+}
+.skill {
+  width: 200px;
+  height: 250px;
+}
+.skill > div {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+.skill-img-box {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.skill-img-box > img {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}
+.rating-holder {
+  display: flex;
+}
+.rating-holder > div:first-child {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.rating-holder > div:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.rate-box {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #c7e6ff;
+}
+.skill-green {
+  background-color: #99d1ff;
+}
+.other-skills-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.other-skills-box > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2px 0;
+  align-items: center;
+}
+.other-skills-box > div > div:first-child {
+  width: 35%;
+}
+
+/* Experience */
+
+#work-experience > .body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.exp-body {
+  width: 50%;
+  padding: 0 20px;
+}
+.exp-body > div {
+  padding: 20px;
+}
+.exp-body h3 {
+  color: #1583dd;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #5cb5ff;
+}
+.exp-body h3 + div {
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+.exp-body h3 + div > div:first-child {
+  font-weight: 700;
+}
+.exp-body h3 + div > div:last-child {
+  font-size: 14px;
+}
+.exp-body ul {
+  margin-left: 50px;
+  font-size: 14px;
+}
+.exp-body li {
+  margin-bottom: 3px;
+}
+
+/* Education */
+
+#education .body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.course-box {
+  width: 33%;
+  text-align: center;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course-box h3 {
+  width: 100%;
+  color: #1583dd;
+  font-size: 20px;
+}
+.course-box h4 {
+  width: 100%;
+}
+.course-box > div:first-child {
+  width: 60%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.course-box img {
+  width: 100%;
+}
+
+/* Contact */
+#contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#contact-me h2 {
+  width: 100%;
+}
+#contact-me .body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+#contact-me .body > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px 0;
+}
+#contact-me .body > div > p:first-child {
+  width: 30%;
+  font-weight: 700;
+}
+/* end */
+#source {
+  font-size: 10px;
+  color: #a1a1a1;
+  text-align: right;
+}
