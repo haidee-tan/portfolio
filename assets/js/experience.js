@@ -1,6 +1,6 @@
 let experience = [
     {
-        role: "Resource Planning and Control Manager",
+        role: "Resource Planning & Control Mgr",
         duration: "April 2013 to November 2021",
         company: "Manila Water Company, Inc.",
         tasks: [

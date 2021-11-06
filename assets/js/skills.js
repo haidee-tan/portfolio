@@ -51,7 +51,7 @@ let finSkills = [
         rating: 8,
     },
     {
-        name: "Forecast",
+        name: "Forecasting",
         rating: 8,
     },
     {

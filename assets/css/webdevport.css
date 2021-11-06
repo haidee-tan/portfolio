@@ -11,7 +11,7 @@ a {
 }
 
 body {
-  max-width: 1200px;
+  max-width: 1100px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -48,20 +48,18 @@ body {
   background-color: #5cb5ff;
 }
 .about-subbox > div {
-  width: 50%;
-  padding: 50px;
+  width: 100%;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
 }
 .about-subbox > div:last-child p {
-  text-align: center;
-}
-.about-subbox > div:last-child p {
-  font-size: 120px;
+  text-align: right;
+  font-size: 60px;
+  line-height: 60px;
   font-weight: 100;
   color: white;
-  line-height: 120px;
 }
 .about-subbox > div > p {
   width: 100%;
@@ -74,25 +72,26 @@ body {
 }
 .about-box .first > div:first-child p,
 .about-box .third > div:first-child p {
-  line-height: 70px;
-  font-size: 60px;
+  line-height: 50px;
+  font-size: 40px;
   font-weight: 200;
 }
 .about-box .first > div:first-child p:last-child,
 .about-box .third > div:first-child p:last-child {
   color: rgb(255, 255, 255);
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 60px;
+  line-height: 60px;
   font-weight: 700;
 }
 .profile-box {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 20px 0;
+  padding: 0 20px;
 }
 .profile-pic-div {
-  width: 30%;
-  height: 350px;
+  width: 250px;
   overflow: hidden;
   font-size: 0;
   object-fit: cover;
@@ -100,42 +99,42 @@ body {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   margin: 30px 0;
-  position: sticky;
-  top: 20px;
 }
 .profile-pic-div img {
   width: 100%;
+  object-fit: cover;
 }
 .about-text {
-  width: 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   align-content: flex-end;
-  padding: 30px;
-  padding-top: 215px;
+  padding-top: 0;
 }
 .about-text p,
 .about-text div {
   width: 100%;
 }
 .about-text > div:first-child {
-  font-size: 40px;
   font-weight: 200;
+  font-size: 30px;
   line-height: 20px;
+  text-align: center;
 }
 .about-text > div:nth-child(2) {
-  font-size: 70px;
+  text-align: center;
+  font-size: 50px;
   font-weight: 700;
   color: #7f7de4;
   border-bottom: 1px solid #5cb5ff;
 }
 .about-text > div:nth-child(3) {
+  text-align: center;
   background-color: #7f7de4;
   padding: 10px;
   color: white;
-  font-weight: 200;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 15px;
 }
 .about-text > div:nth-child(4) {
   padding: 20px 0;
@@ -148,19 +147,63 @@ body {
   color: #1583dd;
 }
 
-/* Main Div */
 .body-div {
   display: flex;
   flex-wrap: wrap;
 }
+
+/* Nav */
+nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  background-color: #7f7de4;
+  position: sticky;
+  top: 90vh;
+  z-index: 2;
+}
+nav > div {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  padding: 10px 0 5px 0;
+}
+nav a {
+  width: 13%;
+  max-width: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+nav a div {
+  width: 60%;
+}
+nav img {
+  width: 100%;
+}
+nav p {
+  width: 100%;
+  text-align: center;
+  font-size: 70%;
+  font-weight: 700;
+  color: #dde6ee;
+}
+
+/* Main Div */
 main {
-  width: 90%;
-  padding-left: 40px;
+  width: 100%;
   margin-bottom: 150px;
 }
+.section {
+  margin-bottom: 70px;
+}
 main h2 {
-  font-size: 40px;
-  text-transform: lowercase;
+  font-size: 25px;
   font-weight: 100;
   background-color: #7f7de4;
   color: white;
@@ -170,48 +213,7 @@ main h2 {
   position: sticky;
   top: 0;
   z-index: 1;
-  border-top: 10px solid white;
-  opacity: 85%;
-}
-.section {
-  margin-bottom: 100px;
-}
-/* Nav */
-nav {
-  width: 8%;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  background-color: #7f7de4;
-}
-nav > div {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  position: sticky;
-  top: 60px;
-}
-nav a {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  margin: 15px 0;
-}
-nav a div {
-  width: 50%;
-}
-nav img {
-  width: 100%;
-}
-nav p {
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 700;
-  color: #dde6ee;
+  opacity: 90%;
 }
 
 /* Projects */
@@ -219,53 +221,61 @@ nav p {
   margin-bottom: 50px;
 }
 .project > a > div {
-  position: relative;
-}
-.proj-textbox {
-  margin-left: 300px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 15px;
+  justify-content: center;
+  padding: 10px;
 }
-.proj-textbox > div {
-  width: 50%;
+.project > a > div > div:nth-child(2) {
+  margin-top: 5px;
+  width: 100%;
+}
+.project h3 {
+  color: #1583dd;
+  font-weight: 300;
+  font-size: 28px;
+  text-align: center;
+}
+.project h3:hover {
+  color: #7f7de4;
+  font-weight: 700;
+}
+.proj-short-desc {
+  padding-bottom: 10px;
+  border-bottom: 10px solid #c7e6ff;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  text-align: center;
+}
+.proj-textbox {
+  display: flex;
+  flex-wrap: wrap;
 }
 .proj-textbox > div:first-child {
-  padding-right: 20px;
-}
-.proj-textbox > div:last-child {
   padding: 20px;
   background-color: #e3f2ff;
+}
+.proj-textbox > div:last-child {
+  width: 100%;
+  padding: 20px;
   border-bottom-right-radius: 30px;
+  border: 3px solid #e3f2ff;
 }
 .proj-img-box {
-  position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   padding: 20px;
   border-radius: 50%;
   overflow: hidden;
   border: 10px solid #c7e6ff;
   background-color: white;
 }
+.proj-img-box:hover {
+  border: 10px solid #7f7de4;
+}
 .proj-img-box img {
   width: 100%;
-}
-.project h3 {
-  padding-left: 300px;
-  padding-top: 50px;
-  color: #1583dd;
-  font-weight: 300;
-  font-size: 40px;
-}
-.proj-short-desc {
-  border-bottom: 10px solid #c7e6ff;
-  padding-bottom: 5px;
-  margin-left: 100px;
-  padding-left: 200px;
-  font-weight: 600;
-  font-size: 18px;
-  color: #727272;
 }
 .project li {
   list-style: square;
@@ -288,15 +298,14 @@ nav p {
 #skills h3 {
   font-size: 25px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #1583dd;
   padding-bottom: 5px;
   text-align: center;
 }
 .skills-sub {
-  width: 100%;
   margin-bottom: 10px;
-  padding: 50px;
+  padding: 30px;
   padding-top: 0;
   display: flex;
   flex-wrap: wrap;
@@ -304,7 +313,7 @@ nav p {
 }
 .tech-skills-body,
 .non-tech-skills-box {
-  width: 50%;
+  width: 100%;
 }
 .skill {
   width: 200px;
@@ -331,6 +340,7 @@ nav p {
 }
 .rating-holder {
   display: flex;
+  max-width: 63%;
 }
 .rating-holder > div:first-child {
   border-bottom-left-radius: 10px;
@@ -341,8 +351,8 @@ nav p {
   border-top-right-radius: 10px;
 }
 .rate-box {
-  width: 25px;
-  height: 25px;
+  width: 23px;
+  height: 23px;
   border: 1px solid #c7e6ff;
 }
 .skill-green {
@@ -364,6 +374,7 @@ nav p {
 }
 .other-skills-box > div > div:first-child {
   width: 35%;
+  font-size: 14px;
 }
 
 /* Experience */
@@ -373,7 +384,7 @@ nav p {
   flex-wrap: wrap;
 }
 .exp-body {
-  width: 50%;
+  width: 100%;
   padding: 0 20px;
 }
 .exp-body > div {
@@ -411,12 +422,13 @@ nav p {
   flex-wrap: wrap;
 }
 .course-box {
-  width: 33%;
+  width: 100%;
   text-align: center;
   padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .course-box h3 {
   width: 100%;
@@ -425,14 +437,18 @@ nav p {
 }
 .course-box h4 {
   width: 100%;
+  font-size: 14px;
 }
 .course-box > div:first-child {
-  width: 60%;
+  width: 40%;
   overflow: hidden;
   margin-bottom: 10px;
 }
 .course-box img {
   width: 100%;
+}
+.course-box > div:last-child {
+  font-size: 14px;
 }
 
 /* Contact */
@@ -447,21 +463,26 @@ nav p {
 #contact-me .body {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 80%;
 }
 #contact-me .body > div {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: 2px 0;
 }
 #contact-me .body > div > p:first-child {
   width: 30%;
   font-weight: 700;
 }
+#contact-me .body > div > p:last-child {
+  width: 60%;
+}
 /* end */
 #source {
   font-size: 10px;
   color: #a1a1a1;
   text-align: right;
+  padding-right: 10px;
 }

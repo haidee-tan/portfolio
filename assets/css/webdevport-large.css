@@ -1,72 +1,145 @@
 @media only screen and (min-width: 992px) {
-  #home-page {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding-top: 0;
-    padding-bottom: 0;
-    justify-content: flex-start;
-    align-items: stretch;
+  .about-subbox > div {
+    width: 50%;
+    padding: 50px;
   }
-  #home-page > div:first-child {
-    margin-top: 10px;
-    align-items: flex-end;
-    width: 100%;
+  .about-subbox > div:last-child p {
+    text-align: center;
+    font-size: 80px;
+    line-height: 80px;
   }
-  .profile-pic-div {
-    width: 40%;
-    height: 250px;
-    border-radius: 0;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    background-color: rgb(195, 252, 197);
-    display: flex;
-    justify-content: flex-end;
-  }
-  .profile-pic-div img {
-    object-position: 0 0;
-  }
-  .text-holder {
-    width: 60%;
-    justify-content: left;
-    padding: 20px 0 0 20px;
-    margin-bottom: 0;
-  }
-  h1 {
-    text-align: left;
+  .about-box .first > div:first-child p,
+  .about-box .third > div:first-child p {
+    line-height: 60px;
     font-size: 50px;
   }
-  .text-holder > div {
-    justify-content: flex-start;
-    width: 100%;
+  .about-box .first > div:first-child p:last-child,
+  .about-box .third > div:first-child p:last-child {
+    font-size: 70px;
+    line-height: 70px;
   }
-  .text-holder > div p {
+  .profile-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding-left: 0;
+  }
+  .profile-pic-div {
+    width: 30%;
+    height: 300px;
+    position: sticky;
+    top: 20px;
+  }
+  .profile-pic-div img {
+    height: 100%;
+  }
+  .about-text {
+    padding-top: 215px;
+    padding-left: 30px;
+    width: 70%;
+    margin-left: 0;
+  }
+  .about-text > div:first-child {
+    font-size: 40px;
+    line-height: 20px;
+  }
+  .about-text > div:nth-child(2) {
+    font-size: 70px;
+  }
+  .about-text > div:nth-child(3) {
+    font-size: 18px;
+    font-weight: 200;
+  }
+  nav {
+    width: 8%;
+    position: static;
+  }
+  nav > div {
+    width: 100%;
+    position: sticky;
+    top: 60px;
+    align-items: stretch;
+    padding: 0;
+  }
+  nav a {
+    width: 100%;
+    max-width: 80px;
+    margin: 15px 0;
+    border: 5px solid #7f7de4;
+  }
+  nav a:hover {
+    border-right: 5px solid #f7f59b;
+  }
+  nav a div {
+    width: 50%;
+  }
+  main {
+    width: 90%;
+    padding-left: 40px;
+  }
+  main h2 {
+    font-size: 25px;
+  }
+  .about-text > div:first-child,
+  .about-text > div:nth-child(2),
+  .about-text > div:nth-child(3) {
     text-align: left;
   }
-  .sub-text {
+  .project > a > div {
+    position: relative;
+    display: block;
+    padding: 0;
+  }
+  .proj-img-box {
+    position: absolute;
+  }
+  .project h3 {
+    padding-left: 230px;
+    padding-top: 30px;
+    font-size: 32px;
+    text-align: left;
+  }
+  .proj-short-desc {
+    margin-left: 100px;
+    padding-left: 130px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .proj-textbox {
+    margin-left: 230px;
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+  .proj-textbox > div:first-child {
+    background-color: white;
+    padding: 0;
+    width: 45%;
+  }
+  .proj-textbox > div:last-child {
+    width: 50%;
+    background-color: #e3f2ff;
+    border: none;
+  }
+  .proj-img-box {
+    width: 200px;
+    height: 200px;
+  }
+  .tech-skills-body,
+  .non-tech-skills-box {
+    width: 50%;
+  }
+  .exp-body {
+    width: 50%;
+  }
+  .course-box {
+    width: 33%;
+    margin-bottom: 0;
+  }
+  .course-box > div:first-child {
     width: 60%;
-    padding: 20px 0 0 20px;
-    margin-bottom: 0;
-    margin-top: 0;
-    order: 1;
-    align-items: center;
-    align-content: flex-start;
   }
-  .sub-text p:last-child {
-    margin-bottom: 0;
-  }
-  .link-boxes {
-    width: 40%;
-    align-content: flex-start;
-    margin-top: 20px;
-  }
-  .link-boxes a {
-    min-height: 80px;
-    margin-bottom: 7px;
-  }
-  .link-boxes a:nth-child(1) {
-    border-top-left-radius: 50px;
-  }
-  .link-boxes a:nth-child(5) {
-    border-bottom-right-radius: 50px;
+  #contact-me .body {
+    width: 30%;
   }
 }
