@@ -53,6 +53,8 @@
   nav {
     width: 8%;
     position: static;
+    height: unset;
+    align-content: flex-start;
   }
   nav > div {
     width: 100%;
