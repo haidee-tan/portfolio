@@ -198,7 +198,7 @@ nav p {
 /* Main Div */
 main {
   width: 100%;
-  margin-bottom: 80vh;
+  margin-bottom: 10vh;
 }
 .section {
   margin-bottom: 70px;
@@ -479,6 +479,20 @@ main h2 {
 }
 #contact-me .body > div > p:last-child {
   width: 60%;
+}
+#contact-me .body > div:last-child {
+  margin-top: 30px;
+  justify-content: center;
+}
+#contact-me .body > div:last-child > a {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  margin: 5px;
+}
+#contact-me .body > div:last-child > a > img {
+  width: 100%;
+  object-fit: cover;
 }
 /* end */
 #source {
