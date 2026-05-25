@@ -1,5 +1,9 @@
 let skills = [
     {
+        name: "SuiteScript",
+        rating: 7,
+    },
+    {
         name: "HTML",
         rating: 7,
         imgSrc: "assets/imgs/skills/html.png",
@@ -10,48 +14,24 @@ let skills = [
         imgSrc: "assets/imgs/skills/css.png",
     },
     {
-        name: "Bootstrap",
-        rating: 4,
-        imgSrc: "assets/imgs/skills/bootstrap.png",
-    },
-    {
-        name: "Mongo DB",
-        rating: 5,
-        imgSrc: "assets/imgs/skills/mongodb.png",
-    },
-    {
         name: "SQL",
-        rating: 3,
+        rating: 6,
         imgSrc: "assets/imgs/skills/mongodb.png",
     },
     {
         name: "Express + Node JS",
-        rating: 5,
+        rating: 6,
         imgSrc: "assets/imgs/skills/express_node.png",
     },
     {
         name: "React JS",
-        rating: 7,
+        rating: 6,
         imgSrc: "assets/imgs/skills/react.png",
-    },
-    {
-        name: "PHP",
-        rating: 4,
-        imgSrc: "assets/imgs/skills/php.svg",
-    },
-    {
-        name: "Laravel",
-        rating: 3,
-        imgSrc: "assets/imgs/skills/laravel.svg",
     },
 ];
 let finSkills = [
     {
-        name: "Budgeting",
-        rating: 8,
-    },
-    {
-        name: "Forecasting",
+        name: "Budgeting & Forecasting",
         rating: 8,
     },
     {
@@ -65,10 +45,6 @@ let otherSkills = [
         rating: 8,
     },
     {
-        name: "SAP",
-        rating: 5,
-    },
-    {
         name: "Canva",
         rating: 7,
     },
@@ -78,11 +54,11 @@ let otherSkills = [
     },
     {
         name: "Editorial Writing",
-        rating: 8,
+        rating: 7,
     },
     {
         name: "Feature Writing",
-        rating: 8,
+        rating: 7,
     },
 ]
 

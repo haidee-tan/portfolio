@@ -1,5 +1,16 @@
 let experience = [
     {
+        role: "NetSuite Developer",
+        duration: "December 2021 to Present",
+        company: "Morfeus IT Consultancy",
+        tasks: [
+            "SuiteScript Developer",
+            "Advanced PDF Templates Creator",
+            "Workflow Automation Specialist",
+            "Website Application Developer"
+        ]
+    },
+    {
         role: "Resource Planning & Control Mgr",
         duration: "April 2013 to November 2021",
         company: "Manila Water Company, Inc.",

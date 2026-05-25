@@ -78,22 +78,22 @@ let projects = [
         ],
         linkSrc: "https://haidee-tan.github.io/tootie-fruity-game"
     },
-    {
-        projImage:  "assets/imgs/projects/proj6.png",
-        projName: "Coin Retriever",
-        projDesc: "MERN Stack Website",
-        concept: "Asking for refund can be tedious and soooo long (plus, frustrating?). Coin Retriever here to help you retrieve your precious coins!",
-        technicalities: [
-            "MongoDB, Express JS, React JS, and Node JS",
-            "React hooks: useEffect, useRef, useState",
-            "React-Redux",
-            "Lodash, UUID, Axios packages",
-            "Password hashing",
-            "JSON Web Token",
-            "Mongoose Schema"
-        ],
-        linkSrc: "https://haidee-tan.github.io/coin-retriever"
-    },
+    // {
+    //     projImage:  "assets/imgs/projects/proj6.png",
+    //     projName: "Coin Retriever",
+    //     projDesc: "MERN Stack Website",
+    //     concept: "Asking for refund can be tedious and soooo long (plus, frustrating?). Coin Retriever here to help you retrieve your precious coins!",
+    //     technicalities: [
+    //         "MongoDB, Express JS, React JS, and Node JS",
+    //         "React hooks: useEffect, useRef, useState",
+    //         "React-Redux",
+    //         "Lodash, UUID, Axios packages",
+    //         "Password hashing",
+    //         "JSON Web Token",
+    //         "Mongoose Schema"
+    //     ],
+    //     linkSrc: "https://haidee-tan.github.io/coin-retriever"
+    // },
 ];
 
 const projContent = document.querySelector("#projects .body");
